@@ -28,7 +28,7 @@
           ></path>
         </svg>
         <span>{{ $u('comment.upload') }}</span>
-        <input id="comment-upload" ref="inputRef" type="file" multiple @change="change" />
+        <input id="comment-upload" ref="inputRef" type="file" @change="change" />
       </div>
       <template v-if="slots.func">
         <Func />
