@@ -352,7 +352,9 @@ const total = computed(() => props.table.total || (props.table.data && props.tab
 const windowHeight = ref(props.maxHeight)
 
 const setWindowHeight = () => {
-  windowHeight.value = window.innerHeight - 300
+  // windowHeight.value = window.innerHeight - 300
+  // debug for ssr
+  windowHeight.value = 300
 }
 
 function resize() {
