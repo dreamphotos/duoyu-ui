@@ -22,7 +22,7 @@
       </div>
       <div v-if="state.over && page" class="fetch-more">
         <el-pagination
-          small
+          size="small"
           hide-on-single-page
           layout="total, prev, pager, next"
           :total="data.total"

@@ -32,7 +32,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "element-plus": "^2.6.0",
+    "element-plus": "^2.9.0",
     "vue": "^3.3.4",
     "vue-dompurify-html": "5.1.0"
   },

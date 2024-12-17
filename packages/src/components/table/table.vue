@@ -119,7 +119,7 @@
       v-if="table.type == 'page'"
       v-model:current-page="state.current"
       layout="total, sizes, prev, pager, next, jumper"
-      small
+      size="small"
       :hide-on-single-page="table.single"
       :total="total"
       :page-sizes="[5, 10, 20, 40]"
